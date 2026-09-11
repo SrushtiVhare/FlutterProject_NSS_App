@@ -45,7 +45,7 @@ rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
     
-    // Helper function to check if user is authenticated
+    
     function isSignedIn() {
       return request.auth != null;
     }

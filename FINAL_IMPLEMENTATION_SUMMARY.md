@@ -337,7 +337,7 @@ Your app is now **production-ready** for email/password authentication!
 ### Next Steps (Optional):
 1. Complete Firebase Console setup (3 steps above)
 2. Test signup/login flow
-3. Add Google Sign-In (future)
+3. Add Google Sign-In 
 4. Add Facebook Login
 5. Implement forgot password
 6. Add email verification

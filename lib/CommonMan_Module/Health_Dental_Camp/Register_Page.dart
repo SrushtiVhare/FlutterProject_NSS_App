@@ -806,21 +806,20 @@ class _RegisterPageState extends State<RegisterPage> {
               onPressed: () {
                 //Navigator.of(context).pop();
                 //Navigator.of(context).pop();
-                
-              // Close the dialog
-              Navigator.of(context).pop();
-              
-              // Navigate to My Registrations page (index 2 in MainNavigation)
-              // We need to pop back to MainNavigation and then switch to index 2
-              Navigator.of(context).popUntil((route) => route.isFirst);
-              
-              // Push MainNavigation with initial index 2
-              Navigator.of(context).pushReplacement(
-                MaterialPageRoute(
-                  builder: (context) => const MainNavigation(initialIndex: 2),
-                ),
-              );
-            
+
+                // Close the dialog
+                Navigator.of(context).pop();
+
+                // Navigate to My Registrations page (index 2 in MainNavigation)
+                // We need to pop back to MainNavigation and then switch to index 2
+                Navigator.of(context).popUntil((route) => route.isFirst);
+
+                // Push MainNavigation with initial index 2
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(
+                    builder: (context) => const MainNavigation(initialIndex: 2),
+                  ),
+                );
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: AppColors.primaryOrange,

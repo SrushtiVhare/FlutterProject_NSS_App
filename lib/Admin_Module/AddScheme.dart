@@ -264,7 +264,7 @@ class _AdminPanelPageState extends State<AdminPanelPage> {
 
       if (mounted) {
         _showSnackBar(
-          'Scheme added successfully!',
+          'Scheme added successfully !!!',
           AppColors.successGreen,
           Icons.check_circle,
         );

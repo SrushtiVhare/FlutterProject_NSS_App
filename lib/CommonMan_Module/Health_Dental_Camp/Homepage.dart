@@ -217,7 +217,7 @@ class HomePage extends StatelessWidget {
           if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
             return const Center(
               child: Text(
-                'No upcoming camps available',
+                '!!! No upcoming camps available !!!',
                 style: TextStyle(fontSize: 16, color: Colors.grey),
               ),
             );

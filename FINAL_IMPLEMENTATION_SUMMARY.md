@@ -285,7 +285,7 @@ flutter analyze
 
 ### UX ✓
 - [x] Loading states
-- [x] Success messages (green)
+- [x] Success messages 
 - [x] Error messages (red, dismissible)
 - [x] Password visibility toggles
 - [x] Keyboard handling

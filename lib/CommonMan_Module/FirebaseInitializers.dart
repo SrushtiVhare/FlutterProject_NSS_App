@@ -13,7 +13,6 @@ class FirebaseConfig {
     if (kIsWeb) {
       return web;
     } else {
-      // For mobile (Android/iOS)
       return mobile;
     }
   }

@@ -18,7 +18,7 @@ class AppColors {
   static const Color white = Color(0xFFFFFFFF);
 }
 
-// ============ DONATION MODEL ============
+// ============ DONATION  ============
 class DonationModel {
   final String id;
   final String type;

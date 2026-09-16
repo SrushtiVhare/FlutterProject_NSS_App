@@ -99,7 +99,6 @@ class _RegisterPageState extends State<RegisterPage> {
             children: [
               Container(
                 decoration: BoxDecoration(
-                  // color: Colors.white,
                   borderRadius: BorderRadius.circular(23),
                   boxShadow: [
                     BoxShadow(

@@ -7,7 +7,7 @@ import 'dart:convert';
 // REMOVED: Firebase initialization - it should only be in main.dart
 // DO NOT call Firebase.initializeApp() here anymore
 
-// App Colors matching the signup/login page
+// App Colors matching the signup/login
 class AppColors {
   static const Color navyBlue = Color(0xFF1A3A52);
   static const Color primaryOrange = Color(0xFFF97316);
